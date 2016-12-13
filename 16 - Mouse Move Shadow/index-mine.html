@@ -42,8 +42,8 @@
       x = x + e.target.offsetLeft;
       y = y + e.target.offsetTop;
     }
-    const xwalk = Math.round((x / width * walk) - (walk / 2))
-    const ywalk = Math.round((y / width * walk) - (walk / 2))
+    const xwalk = Math.round(((x / width) * walk) - (walk / 2))
+    const ywalk = Math.round(((y / width) * walk) - (walk / 2))
 
     text.style.textShadow = `${xwalk}px ${ywalk}px 0 hsla(350,95%,60%,.6),
                              ${-xwalk}px ${ywalk}px 0 hsla(30,95%,60%,.6),
